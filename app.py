@@ -8,5 +8,4 @@ app = Flask(__name__)
 def hello_world(roman):
     if request.method == "GET":
         decimal = r2d(roman)
-
-        return f"{r2d(roman)}"
+        return f"{decimal}"
