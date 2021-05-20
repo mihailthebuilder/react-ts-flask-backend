@@ -13,7 +13,7 @@ def hello_world(roman):
         decimal = r2d(roman)
 
         rebased_dict = {
-            "decimal": decimal,
+            "decimal": str(decimal),
             "binary": bc(2, decimal),
             "ternary": bc(3, decimal),
             "vigesimal": bc(20, decimal),
