@@ -1,3 +1,6 @@
+# great base converter
+
+
 def bc(base, num):
     upper_bound = 1
     upper_power = 0
