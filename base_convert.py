@@ -1,4 +1,4 @@
-# great base converter
+# great base converter: https://www.dcode.fr/base-n-convert
 
 
 def bc(base, num):
