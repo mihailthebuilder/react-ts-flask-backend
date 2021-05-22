@@ -1,3 +1,7 @@
+# React-Flask challenge
+
+## Problem 2 - Setting up the back-end service
+
 I created a simple API with Flask. I've always built things in Django before, but I felt it would've been way overkill for a simple API request with no database connection. Flask is super easy to set up on the other hand.
 
 The API has a single endpoint with the relative path of `/<roman_numeral>`. Upon a GET request, it will return an object that meets the specs of the problem.
@@ -10,3 +14,7 @@ I created 2 functions that helped me generate the object:
 I import these 2 functions into `app.py` that serves as the API's main file.
 
 Added `flask_cors.CORS` to allow cross-origin AJAX from front-end. 
+
+## Problem 4
+
+### Hosting back-end in the cloud
