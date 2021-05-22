@@ -18,3 +18,6 @@ Added `flask_cors.CORS` to allow cross-origin AJAX from front-end.
 ## Problem 4
 
 ### Hosting back-end in the cloud
+
+I use [Heroku](https://devcenter.heroku.com/articles/getting-started-with-python) to host the back-end API.
+
