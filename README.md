@@ -16,7 +16,7 @@ I created 2 functions that helped me generate the object:
 
 I import these 2 functions into `main.py` that serves as the API's main file.
 
-Added `flask_cors.CORS` to allow cross-origin AJAX from front-end.
+I use [flask-CORS](https://flask-cors.readthedocs.io/en/latest/) to allow cross-origin AJAX from front-end (needed for problem 3).
 
 ## Problem 4
 
