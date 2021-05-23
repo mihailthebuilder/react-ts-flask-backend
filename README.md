@@ -20,6 +20,8 @@ I use [flask-CORS](https://flask-cors.readthedocs.io/en/latest/) to allow cross-
 
 ## Problem 4
 
+Link to [live site](https://mihailthebuilder.github.io/react-flask-challenge-3-and-4/).
+
 See [this repo](https://github.com/mihailthebuilder/react-flask-challenge-3-and-4) for instructions on hosting the front-end.
 
 ### Hosting back-end in the cloud
