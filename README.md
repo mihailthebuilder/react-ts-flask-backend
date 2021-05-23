@@ -28,6 +28,8 @@ Install `gunicorn`: `pip install gunicorn`
 
 Create `wsgi.py` file that references the main app file `main.py`.
 
+Install Heroku on your linux OS with Snapcraft: `sudo snap install heroku --classic`
+
 Make sure you have a Heroku account, then log into it with `heroku login`
 
 Create Heroku app: `heroku create`
