@@ -4,6 +4,8 @@
 
 I created a simple API with Flask. I've always built things in Django before, but I felt it would've been way overkill for a simple API request with no database connection. Flask is super easy to set up on the other hand.
 
+You can start the app in local by running `flask run`.
+
 The API has a single endpoint with the relative path of `/<roman_numeral>`. Upon a GET request, it will return an object that meets the specs of the problem.
 ![output](curl_output.png)
 
