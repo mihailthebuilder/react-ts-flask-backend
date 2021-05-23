@@ -11,7 +11,7 @@ I created 2 functions that helped me generate the object:
 1. `r2d` from `roman2decimal.py` - converts a Roman numeral string to a decimal value in `int`
 2. `bc` from `base_convert.py` - converts a decimal value in `int` to any other base that's been input as `str`
 
-I import these 2 functions into `app.py` that serves as the API's main file.
+I import these 2 functions into `main.py` that serves as the API's main file.
 
 Added `flask_cors.CORS` to allow cross-origin AJAX from front-end. 
 
