@@ -2,7 +2,7 @@
 
 ## Problem 2 - Setting up the back-end service
 
-I created a simple API with Flask. I've always built things in Django before, but I felt it would've been way overkill for a simple API request with no database connection. Flask is super easy to set up on the other hand.
+I created a simple API with [Flask](https://flask.palletsprojects.com/en/2.0.x/). I've always built things in Django before, but I felt it would've been way overkill for a simple API request with no database connection. Flask is super easy to set up on the other hand.
 
 You can start the app in local by running `flask run`.
 
