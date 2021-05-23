@@ -18,7 +18,7 @@ Added `flask_cors.CORS` to allow cross-origin AJAX from front-end.
 
 ## Problem 4
 
-See [this repo]() for instructions on hosting the front-end.
+See [this repo](https://github.com/mihailthebuilder/react-flask-challenge-3-and-4) for instructions on hosting the front-end.
 
 ### Hosting back-end in the cloud
 
