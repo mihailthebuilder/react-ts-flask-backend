@@ -40,4 +40,6 @@ Create Heroku app: `heroku create`
 
 Set git remote to the app: `heroku git:remote -a desolate-harbor-87386`
 
+Create `Procfile` that specifies how the app should start
+
 Deploy the app: `git push heroku main`
