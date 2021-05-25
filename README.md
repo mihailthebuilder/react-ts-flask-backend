@@ -6,7 +6,7 @@ I created a simple API with [Flask](https://flask.palletsprojects.com/en/2.0.x/)
 
 You can start the app in local by running `flask run`.
 
-The API has a single endpoint with the relative path of `/<roman_numeral>`. Upon a GET request, it will return an object that meets the specs of the problem.
+The API has a single endpoint with the relative path of `/<roman>`. Upon a GET request, it will return an object that meets the specs of the problem.
 ![output](curl_output.png)
 
 I created 2 functions that helped me generate the object:
