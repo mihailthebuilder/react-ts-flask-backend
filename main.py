@@ -4,9 +4,20 @@ from flask import Flask, request
 from roman2decimal import r2d
 from base_convert import bc
 from flask_cors import CORS
+from flask import send_from_directory
+import os
 
 app = Flask(__name__)
 CORS(app)
+
+
+@app.route("/favicon.ico")
+def favicon():
+    return send_from_directory(
+        app.root_path,
+        "favicon.ico",
+        mimetype="image/vnd.microsoft.icon",
+    )
 
 
 @app.route("/<roman>", methods=["GET"])
