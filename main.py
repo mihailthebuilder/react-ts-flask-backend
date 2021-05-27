@@ -5,7 +5,6 @@ from roman2decimal import r2d
 from base_convert import bc
 from flask_cors import CORS
 from flask import send_from_directory
-import os
 
 app = Flask(__name__)
 CORS(app)
